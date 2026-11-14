@@ -1,0 +1,11 @@
+search_id,database,query_string,execution_date,results_retrieved,duplicates_removed,screened_in,screened_out_reason,notes
+Q1,arXiv,"retrieval augmented generation AND citation verification",2026-11-01,142,12,8,"N/A","Identified baseline citation evaluation papers"
+Q2,Google Scholar,"claim-level attribution AND large language models",2026-11-01,210,25,6,"N/A","Focused on fine-grained token-level attribution"
+Q3,arXiv,"multi-agent RAG AND evidence verification",2026-11-01,88,8,7,"N/A","Found multi-agent collaboration failure studies"
+Q4,ACL Anthology,"agentic RAG AND reliability evaluation",2026-11-01,95,10,5,"N/A","Evaluated benchmark frameworks for agents"
+Q5,arXiv,"version-aware retrieval OR version-aware RAG",2026-11-01,45,4,4,"N/A","Crucial direct competing work: VersionRAG (2025)"
+Q6,Google Scholar,"contradictory evidence AND retrieval augmented generation",2026-11-01,115,14,5,"N/A","Captured conflict resolution in multi-doc RAG"
+Q7,arXiv,"evidence sufficiency AND answer abstention AND LLM",2026-11-01,78,6,6,"N/A","Captured uncertainty calibration and refusal baselines"
+Q8,Semantic Scholar,"selective prediction AND retrieval augmented generation",2026-11-01,62,5,4,"N/A","Evaluated risk-coverage trade-offs"
+Q9,ACM Digital Library,"multi-agent systems AND computational cost AND LLM",2026-11-01,130,18,5,"N/A","Measured latency and token overhead trade-offs"
+Q10,IEEE Xplore,"technical documentation AND evidence-grounded question answering",2026-11-01,55,7,4,"N/A","Direct alignment with technical doc corpora (TechDocRAG)"
