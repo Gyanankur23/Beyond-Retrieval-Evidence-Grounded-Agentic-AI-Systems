@@ -1,0 +1,19 @@
+\begin{tabular}{llccccc}
+\toprule
+Query & Retriever & Mode & Hit@1 & Stale@1 & Recall@5 & MRR \\
+\midrule
+heading & BM25 & blind & 40.1 [35.3, 44.9] & 39.6 [35.0, 44.4] & 90.4 [87.3, 93.1] & 0.625 \\
+heading & BM25 & aware & 75.6 [71.1, 79.7] & 0.0 [0.0, 0.0] & 95.2 [92.9, 97.2] & 0.845 \\
+heading & TF-IDF & blind & 35.3 [30.5, 40.1] & 35.3 [30.5, 40.1] & 85.5 [82.0, 88.8] & 0.572 \\
+heading & TF-IDF & aware & 65.5 [60.7, 70.1] & 0.0 [0.0, 0.0] & 94.2 [91.9, 96.2] & 0.782 \\
+heading & LSA & blind & 31.7 [27.2, 36.3] & 32.0 [27.4, 36.5] & 75.9 [71.6, 79.9] & 0.512 \\
+heading & LSA & aware & 57.9 [53.0, 62.7] & 0.0 [0.0, 0.0] & 87.3 [84.0, 90.6] & 0.705 \\
+\midrule
+heading+sentence & BM25 & blind & 63.7 [59.1, 68.3] & 31.2 [26.6, 35.8] & 99.0 [98.0, 99.7] & 0.808 \\
+heading+sentence & BM25 & aware & 95.4 [93.1, 97.5] & 0.0 [0.0, 0.0] & 99.7 [99.2, 100.0] & 0.975 \\
+heading+sentence & TF-IDF & blind & 59.9 [55.1, 64.7] & 33.0 [28.4, 37.6] & 98.5 [97.2, 99.5] & 0.780 \\
+heading+sentence & TF-IDF & aware & 91.9 [89.1, 94.4] & 0.0 [0.0, 0.0] & 99.7 [99.2, 100.0] & 0.954 \\
+heading+sentence & LSA & blind & 54.1 [49.0, 59.1] & 32.5 [27.9, 36.8] & 92.9 [90.1, 95.4] & 0.718 \\
+heading+sentence & LSA & aware & 82.5 [78.7, 86.3] & 0.0 [0.0, 0.0] & 98.2 [96.7, 99.5] & 0.890 \\
+\bottomrule
+\end{tabular}

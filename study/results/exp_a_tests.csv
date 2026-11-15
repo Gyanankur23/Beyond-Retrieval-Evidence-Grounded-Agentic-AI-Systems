@@ -1,0 +1,13 @@
+cls,qtype,retriever,aware_only_correct,blind_only_correct,p_mcnemar
+changed,heading,bm25,140,0,1.4349296274686127e-42
+changed,heading,lsa,103,0,1.9721522630525295e-31
+changed,heading,tfidf,119,0,3.009265538105056e-36
+changed,heading+sentence,bm25,125,0,4.70197740328915e-38
+changed,heading+sentence,lsa,112,0,3.851859888774472e-34
+changed,heading+sentence,tfidf,126,0,2.350988701644575e-38
+unchanged,heading,bm25,903,0,2.957630465416937e-272
+unchanged,heading,lsa,670,0,4.082563051969564e-202
+unchanged,heading,tfidf,742,0,8.645163535653227e-224
+unchanged,heading+sentence,bm25,1042,0,4.243991582e-314
+unchanged,heading+sentence,lsa,952,0,5.253807105661922e-287
+unchanged,heading+sentence,tfidf,1061,0,8.095e-320
